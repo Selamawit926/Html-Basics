@@ -93,9 +93,7 @@ percentage is the same as em*/
     
 }
 
-#cont{
-  margin-top: 00px;
-}
+
 
 .form{
     margin-bottom: 300px;
@@ -109,7 +107,7 @@ percentage is the same as em*/
     
 }
 
-#email{
+input[type="email"]{
     margin-left: 113px;
     margin-top:20px;
     height: 25px;
@@ -117,7 +115,7 @@ percentage is the same as em*/
     
 }
 
-#tel{
+input[type="tel"]{
     margin-left: 57px;
     margin-top:20px;
     height: 25px;
@@ -131,14 +129,14 @@ percentage is the same as em*/
     width: 200px;
 }
 
-#password{
+input[type="password"]{
     margin-left: 89px;
     margin-top:20px;
     height: 25px;
     width: 200px;
 }
 
-#datetime{
+input[type="date"]{
     margin-left: 65px;
     margin-top:20px;
     height: 25px;
@@ -175,11 +173,18 @@ percentage is the same as em*/
 }
 
 .profile{
-    margin-bottom: 300px;
+    display: inline-block;
 }
 
 .descript{
     position: relative;
-    margin-left: 80px;
-    margin-top: 20px;
+    margin-left: 250px;
+    margin-top: 30px;
 }
+
+#leave{
+    margin-left: 20px;
+}
+
+
+
