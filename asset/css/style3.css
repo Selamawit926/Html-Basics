@@ -1,0 +1,389 @@
+/* FOR THE THIRD QUESTION */
+header{
+    margin-left: 550px;
+    margin-top: 30px;
+}
+nav >ul > li
+{
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 80px;
+}
+
+nav > ul > li:hover{
+    background-color: green;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+}
+
+
+.aust1{
+    width: 200px;
+    height: 40px;
+    background-color: red;
+}
+.aust2{
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    margin-top: 0px;
+}
+
+.aust3{
+    width: 200px;
+    height: 40px;
+    margin-top: 0px;
+    background-color: red;
+}
+
+
+.ger1{
+    width: 200px;
+    height: 40px;
+    background-color:black;
+}
+
+.ger2{
+    width: 200px;
+    height: 40px;
+    margin-top: 0px;
+    background-color:red;
+}
+
+.ger3{
+    width: 200px;
+    height: 40px;
+    margin-top: 0px;
+    background-color:yellow;
+}
+
+.hun1{
+    width: 200px;
+    height: 40px;
+    background-color:red;
+}
+
+.hun2{
+    width: 200px;
+    height: 40px;
+    margin-top: 0px;
+    background-color:white;
+}
+
+.hun3{
+    width: 200px;
+    height: 40px;
+    margin-top: 0px;
+    background-color:green;
+}
+
+
+.russ1{
+    width: 200px;
+    height: 40px;
+    background-color:white;
+}
+
+.russ2{
+    width: 200px;
+    height: 40px;
+    margin-top: 0px;
+    background-color:blue;
+}
+
+.russ3{
+    width: 200px;
+    height: 40px;
+    margin-top: 0px;
+    background-color:red;
+}
+
+
+.neth1{
+    width: 200px;
+    height: 40px;
+    background-color:red;
+}
+
+.neth2{
+    width: 200px;
+    height: 40px;
+    margin-top: 0px;
+    background-color:white;
+}
+
+.neth3{
+    width: 200px;
+    height: 40px;
+    margin-top: 0px;
+    background-color:blue;
+}
+
+
+
+.thai1{
+    width: 200px;
+    height: 20px;
+    background-color:red;
+}
+
+.thai2{
+    width: 200px;
+    height: 20px;
+    margin-top: 0px;
+    background-color:white;
+}
+
+
+.thai3{
+    width: 200px;
+    height: 40px;
+    background-color:blue;
+}
+
+.thai4{
+    width: 200px;
+    height: 20px;
+    margin-top: 0px;
+    background-color:white;
+}
+
+.thai5{
+    width: 200px;
+    height: 20px;
+    margin-top: 0px;
+    background-color:red;
+}
+
+.pol1{
+    width: 200px;
+    height: 60px;
+    background-color:white;
+}
+
+.pol2{
+    width: 200px;
+    height: 60px;
+    margin-top: 0px;
+    background-color:red;
+}
+
+
+.mon1{
+    width: 200px;
+    height: 60px;
+    background-color:red;
+}
+
+.mon2{
+    width: 200px;
+    height: 60px;
+    margin-top: 0px;
+    background-color:white;
+}
+
+
+.fran1{
+    width:65px;
+    height: 120px;
+    background-color: blue;
+
+}
+
+.fran2{
+    width:65px;
+    height: 120px;
+    margin-left: 65px;
+    background-color: white;
+    
+}
+
+.fran3{
+    width:65px;
+    height: 120px;
+    margin-left: 65px;
+    background-color: red;
+}
+
+
+.guin1{
+    width:65px;
+    height: 120px;
+    background-color: red;
+
+}
+
+.guin2{
+    width:65px;
+    height: 120px;
+    margin-left: 65px;
+    background-color: yellow;
+    
+}
+
+.guin3{
+    width:65px;
+    height: 120px;
+    margin-left: 65px;
+    background-color: green;
+}
+
+
+.it1{
+    width:65px;
+    height: 120px;
+    background-color: green;
+
+}
+
+.it2{
+    width:65px;
+    height: 120px;
+    margin-left: 65px;
+    background-color: white;
+    
+}
+
+.it3{
+    width:65px;
+    height: 120px;
+    margin-left: 65px;
+    background-color: red;
+}
+
+
+.ma1{
+    width:65px;
+    height: 120px;
+    background-color: green;
+
+}
+
+.ma2{
+    width:65px;
+    height: 120px;
+    margin-left: 65px;
+    background-color: yellow;
+    
+}
+
+.ma3{
+    width:65px;
+    height: 120px;
+    margin-left: 65px;
+    background-color: red;
+}
+
+
+.ben1{
+    width:70px;
+    height: 120px;
+    background-color: green;
+
+}
+
+.ben2{
+    width:130px;
+    height: 60px;
+    background-color:yellow ;
+    margin-left: 70px;
+    
+}
+
+.ben3{
+    width:130px;
+    height: 60px;
+    background-color:red ;
+    margin-left:70px;
+    margin-top: 0px;
+   
+    
+}
+
+
+.mad1{
+    width:70px;
+    height: 120px;
+    background-color: white;
+
+}
+
+.mad2{
+    width:130px;
+    height: 60px;
+    background-color:red ;
+    margin-left: 70px;
+    
+}
+
+.mad3{
+    width:130px;
+    height: 60px;
+    background-color:green ;
+    margin-left:70px;
+    margin-top: 0px;
+   
+    
+}
+
+.yem1{
+    width: 200px;
+    height: 40px;
+    background-color:red;
+}
+
+.yem2{
+    width: 200px;
+    height: 40px;
+    margin-top: 0px;
+    background-color:white;
+}
+
+.yem3{
+    width: 200px;
+    height: 40px;
+    margin-top: 0px;
+    background-color:black;
+}
+
+
+.flags1{
+    float:right;
+    margin-right: 100px;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+.flags2{
+    float: right;
+    margin-right: 350px;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+.flags3{
+    float: right;
+    margin-left:100px ;
+    margin-top: 100px;
+    padding: 10px;
+    position: absolute;
+}
+
+.flag{
+    background-color: lightseagreen ;
+}
+
+#int{
+    text-align: center;
+    color: black;
+    margin-top: 100px;
+}
+
+.desc{
+    text-align: center;
+    background-color: lightseagreen;
+    font-size: 20px;
+
+}
