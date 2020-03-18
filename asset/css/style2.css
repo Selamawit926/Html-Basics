@@ -29,7 +29,7 @@ li{
 
 p{
     background-color: yellow;
-    background-size: max-content;
+    
 }
 
 /*Make all inputs have a 3px red border*/
@@ -112,3 +112,67 @@ a:visited{
     color: gray;
 }
 
+
+
+
+/* For the second question */
+
+/* .first{
+    background-color: white;
+    margin-left: 550px;
+    margin-top: 160px;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    border-top: solid black 5px;
+    padding-top: -100px;
+   
+} */
+
+#first{
+    background-color: lightyellow;
+}
+
+.second{
+    margin-left: 680px;
+    margin-top: 120px;
+    width: 200px;
+    height: 560px;
+    background-color: lightyellow;
+    border-left:solid black 5px;
+    border-right: solid black 5px;
+    
+    
+}
+
+.third{
+    margin-left: 495px;
+    margin-top: 170px;
+    background-color:lightyellow;
+    width: 580px;
+    height: 200px;
+    position: absolute;
+    border-top: solid black 5px;
+    border-bottom: solid black 5px;
+}
+
+.fourth{
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: lightyellow;
+    width: 185px;
+    height: 200px;
+    border-right: solid black 5px;
+    position: absolute;
+}
+
+#fifth{
+    margin-top: 175px;
+    margin-left: 885px;
+    background-color:lightyellow;
+    width: 185px;
+    height: 200px;
+    position: absolute;
+    border-left: solid black 5px;
+    
+}
