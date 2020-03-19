@@ -27,9 +27,14 @@
                     
                 </li>
                 <li>
+                    <a href="gallery.html">Gallery</a>
+                    
+                </li>
+                <li>
                     <a href="blog.html">Blog</a>
                     
                 </li>
+                
             </ul>
         </nav>
     </header>
@@ -38,8 +43,12 @@
         <div id="content">
 
             <section>
-                    <p class="title">The fourth question</p>
+                    <p class="title">Question No.4</p>
                     <article>
+                        <p class="que"> 
+                            Question: Does it matter to use relative size(%,em,rem) one styling the size of an element so that the element is responsive? Why? [write your argument]
+
+                        </p>
                       <p class="cont">Yes, it definitely matters to use percentage, em, and rem units to make elements more responsive. Since em is a flexible unit that is converted by the browser into pixel values and is relative to the font size of the parent element, for a more responsive layout all the user need to do is change the default font size. For example, if the default is 16px and that of a paragraph is 2em then it’ll be translated into 32px (twice of the parent).  This particular relative unit also has an inheritance property, which means if there was another div inside the paragraph with a font size of 1.5m then it’ll translate into 48px (not 24px). It’ll inherit the font size of its nearest parent as the default. This can be solved by using rem relative unit. Rem is relative to the font size of the root element (html element). If the font-size of the html element is 16px, then 1rem = 16px. It’ll always be relative to the root element despite how nested the elements are. Percentage is similar to em in that they are relative to the parent’s size and are widely used in responsive layouts.
                     </p>
                        
@@ -54,43 +63,70 @@
                     
                     </article>
 
-                    <p class="date">March 19,2020 : 3:00 AM</p>
+                    <p class="date">March 19,2020 </p>
             </section>
 
 
             <!-- Second blog -->
 
             <section>
-                    <p class="title">My second post</p>
+                    <p class="title">Question No.5</p>
                     <article>
-                     <p>
-                        We said 16px is default browser width so what does it mean when we say 200px? How does the browser interpret that? 
+                     <p class="que"> 
+                       Question: We said 16px is default browser width so what does it mean when we say 200px? How does the browser interpret that? 
                         </p>
 
-                        <p>When we say 200px we’re actually telling the browser to change the default font size from the 16px and it’s going to interpret that as overriding its default. 
+                        <p class="cont2">When we say 200px we’re actually telling the browser to change the default font size from the 16px and it’s going to interpret that as overriding its default. 
                             So the rest of the elements are going to inherit from the given size instead of the original default font size of the browser.</p>
                 
                     
                     </article>
 
-                    <p class="date">March 19,2020 : 3:00 AM</p>
+                    <p class="date">March 19,2020 </p>
             </section>
 
             <!-- third blog -->
             <section>
                     <section>
-                            <p class="title">My third post</p>
+                            <p class="title">Question No.6</p>
                             <article>
-                              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos deleniti vel rem quo quis delectus iure unde! Illum repudiandae, dolore accusantium odio consectetur nesciunt.</p>  
-                              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos deleniti vel rem quo quis delectus iure unde! Illum repudiandae, dolore accusantium odio consectetur nesciunt.</p>  
-                              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos deleniti vel rem quo quis delectus iure unde! Illum repudiandae, dolore accusantium odio consectetur nesciunt.</p>  
-                              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos deleniti vel rem quo quis delectus iure unde! Illum repudiandae, dolore accusantium odio consectetur nesciunt.</p>  
-                            
+                              <p class="que">Question: Explain in detail(in technical terms) the specific changes in css3.
+                            </p>
+
+                            <p class="cont3">
+                                The CSS3 version has added new features to help developers style html elements using less code. A few of the new features include:
+                            </p>
                         
+                            <p >
+                                <ul class="cont4">
+                                    <li>	Box shadow: it adds a shadow to an element. 
+                                        Instead of using multiple images around an item, this property lets you add shadow with a short line of code.</li>
+                                    
+                                        <li>Opacity: this makes elements see-through or completely transparent. It allows developers to apply opacity to images or other HTML elements. 
+                                        The transparency level depends on the indicated values.</li>
+                                    <li>Rounded corners: it allows developers to apply the border-radius CSS3 property to HTML elements so that the element can turn out rounded or as desired.</li>
+                                   
+                                   
+                                    <li>Attribute selectors: this allows developers to select HTML elements according to their attributes instead of applying Id’s or classes for styling. It saves them from creating unique IDs only to apply CSS rules.</li>
+                                   
+                                    <li>New colors: One of the CSS3 features is the addition of new colors like RGBA, HSL, HSLA and gradient colors. </li>
+                                    
+                                    <li>More than web-safe fonts: this allows developers to apply more unique fonts in their HTML documents instead of only using fonts labeled as web-safe.</li>
+                                    
+                                    <li>Animations and Transitions: there are two ways to create CSS animations. The first is very easy, it is done through animating the changes of CSS properties with the transition declaration. With transitions, you can create hover or mouse down effects, or you can trigger the animation by changing the style of an element with JavaScript. The second way for defining animations is a bit more complicated - it involves the description of specific moments of the animation with the code. This allows you to have repeating animations that don't depend on user actions or JavaScript to get triggered.</li>
+                                    
+                                    <li>The calc() function: it allows developers to do simple arithmetic calculations in CSS. They can use it anywhere a length or a size is required. </li>
+                                    
+                                    <li>3D transforms: this offers some powerful features to designers and developers. It allows elements to be shifted, rotated, slanted, squashed and stretched. </li>
+                                   
+                                    <li>Media Queries: it can contain checks for the device resolution and orientation, color depth, pixel density and more.</li>
+                                </ul>
+                            </p>
+
                             
                             </article>
         
-                            <p class="date">March 13,2020 : 3:00 AM</p>
+                            <p class="date">March 19,2020 </p>
                     </section>
                 
             </section>
