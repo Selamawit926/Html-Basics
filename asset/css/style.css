@@ -35,7 +35,7 @@ article{
 }
 
 .title{
-    font-size: 23px;
+    font-size: 2rem;
     font-weight: bold;
 }
 
@@ -72,6 +72,11 @@ img [scr="./asset/image/rounded.jpg"]{
     clear:left;
 }
 
+.cont{
+    margin-right: 400px;
+    line-height: 1.5;
+
+}
 /* the text inherit from the div rather than the default html
 em- means realtuve tot he container, doubles the font size of the default size 
 rem- takes the root container
