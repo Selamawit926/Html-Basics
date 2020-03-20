@@ -55,7 +55,8 @@ nav > ul > li:hover{
 section{
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
-    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
 
 }
 article{
@@ -67,12 +68,12 @@ article{
 .title{
     font-size: 2rem;
     font-weight: bold;
+    margin-top: 60px;
+    margin-left: 20px;
+    position: relative;
     
 }
 
-.sec{
-    margin-left: 10px;
-}
 
 .date{
     font-style: italic;
@@ -111,6 +112,7 @@ article{
     font-weight: bold;
     margin-right: 400px;
     line-height: 2.0;
+    margin-top: 0px;
 }
 
 .content{
