@@ -12,11 +12,12 @@ body{
 
 header{
     /* position: fixed;  */
-    width: 1000px;
+    width: 800px;
     text-align: center;
-    margin-left: 300px;
+    margin-left: 400px;
     position: fixed;
     background-color: magenta;
+    
     
 }
 
@@ -41,7 +42,7 @@ nav > ul > li:hover{
 @media screen and (max-width: 1200px) {
     nav > ul > li {
       float: none;
-      width: 100%;
+      /* width: 100%; */
       display: none;
       text-align: center;
     }
