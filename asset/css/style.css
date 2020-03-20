@@ -4,8 +4,10 @@
 
 body{
     background-color: skyblue;
-     border: solid black 10px; 
+     border: solid lightgray 10px; 
     margin: 10px; 
+    font-style: initial;
+
 }
 
 header{
@@ -13,10 +15,41 @@ header{
     width: 1000px;
     text-align: center;
     margin-left: 300px;
-    border-bottom: rgb(59, 59, 90);
-
     
 }
+
+/* Navigation */
+nav >ul > li
+{
+    display: inline-block;
+    padding: 10px 3px;
+    font-size: 20px;
+    position: relative;
+}
+
+nav > ul > li > a {
+text-decoration: none
+}
+
+nav > ul > li:hover{
+    background-color: green;
+}
+
+@media screen and (max-width: 1200px) {
+    nav > ul > li {
+      float: none;
+      width: 100%;
+      display: none;
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 1200px){
+      body{
+          background-color: lightcoral;
+      }
+  }
+
 
 /* Targeting our blog */
 section{
@@ -34,6 +67,11 @@ article{
 .title{
     font-size: 2rem;
     font-weight: bold;
+    
+}
+
+.sec{
+    margin-left: 10px;
 }
 
 .date{
@@ -42,32 +80,7 @@ article{
     text-transform: uppercase;
 }
 
-/* Navigation */
-nav >ul > li
-{
-    display: inline-block;
-    padding: 10px 3px;
-    font-size: 20px;
-}
 
-nav > ul > li > a {
-text-decoration: none
-}
-
-nav > ul > li:hover{
-    background-color: green;
-}
-
-img [scr="./asset/image/rounded.jpg"]{
-    float: left;
-    width: 400px;
-    
-
-}
-
-#clear{
-    clear:left;
-}
 
 .cont{
     margin-right: 400px;
@@ -100,16 +113,35 @@ img [scr="./asset/image/rounded.jpg"]{
     line-height: 2.0;
 }
 
+.content{
+    padding-left: 10px;
+}
+
+
+
+
+
+
+#clear{
+    clear:left;
+}
+
+
 
 /* the text inherit from the div rather than the default html
 em- means realtuve tot he container, doubles the font size of the default size 
 rem- takes the root container
 percentage is the same as em*/
 
+
+/* Gallery */
 #tex{
     text-transform: uppercase;
     /* text-align: center; */
-    margin-left: 680px;
+    text-align: center;
+    position: relative;
+    border-bottom: lightgray solid 10px;
+    padding-bottom: 20px;
  
 }
 
@@ -119,10 +151,18 @@ percentage is the same as em*/
     margin-left: 1.66666667%;
     margin-right: 1.66666667%;
     padding: 1.66666667%;
-    
+    height: 400px; 
+    width: 410px;
 }
 
 
+/* Contact page */
+
+img [scr="./asset/image/rounded.png"]{
+    float: left;
+    width: 400px;
+
+}
 
 .form{
     margin-bottom: 300px;
@@ -131,7 +171,7 @@ percentage is the same as em*/
 #fName{
     margin-left: 80px;
     margin-top:20px;
-    height: 25px;
+    /* height: 25px; */
     width: 200px;
     
 }
@@ -139,7 +179,7 @@ percentage is the same as em*/
 input[type="email"]{
     margin-left: 113px;
     margin-top:20px;
-    height: 25px;
+    /* height: 25px; */
     width: 200px;
     
 }
@@ -147,28 +187,28 @@ input[type="email"]{
 input[type="tel"]{
     margin-left: 57px;
     margin-top:20px;
-    height: 25px;
+    /* height: 25px; */
     width: 200px;
 }
 
 #country{
     margin-left: 100px;
     margin-top:20px;
-    height: 25px;
+    /* height: 25px; */
     width: 200px;
 }
 
 input[type="password"]{
     margin-left: 89px;
     margin-top:20px;
-    height: 25px;
+    /* height: 25px; */
     width: 200px;
 }
 
 input[type="date"]{
     margin-left: 65px;
     margin-top:20px;
-    height: 25px;
+    /* height: 25px; */
     width: 200px;
 }
  #comment{
@@ -198,9 +238,16 @@ input[type="date"]{
     float:left;
     text-align: right;
     margin-left: 20px;
+    margin-top: 10px;
+    position: relative;
 
 }
 
+#end{
+    text-align: center;
+}
+
+/* Index */
 .profile{
     display: inline-block;
     width: 1550px;
@@ -210,7 +257,8 @@ input[type="date"]{
 .descript{
     position: relative;
     margin-left: 250px;
-    margin-top: 30px;
+    margin-top: 130px;
+  
 }
 
 #leave{
@@ -218,8 +266,9 @@ input[type="date"]{
 }
 
 .head{
-    width: 1550px;
+    width: 1535x;
     border-bottom:  solid lightgray 10px;
+    padding-left: 20px;
 }
 
 .social{
@@ -230,4 +279,12 @@ input[type="date"]{
     padding-bottom: 10px;
 }
 
+#icon{
+    height: 25px;
+    padding-left: 10px;
+}
+
+.work{
+    padding-left: 20px;
+}
 
